@@ -13,4 +13,5 @@ codiguera_ciuo <- file.path('data-raw', 'listado_a_usar_Ocupaciones.xls') %>%
                                  ciuo == "1431" ~ "Gerentes de centros deportivos, de esparcimiento y culturales",
                                  TRUE ~ descripcion)) %>%
   distinct()
-# save(codiguera_ciuo, file = 'data/codiguera_ciuo.rda')
+
+usethis::use_data(codiguera_ciuo)
