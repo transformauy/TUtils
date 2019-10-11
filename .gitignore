@@ -1,0 +1,8 @@
+pkg-dev/*
+data-raw/*
+*.csv
+*.xls
+*.xlsx
+.Rhistory
+TUtils.Rproj
+.Rproj.user
