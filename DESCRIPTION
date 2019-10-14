@@ -1,13 +1,16 @@
 Package: TUtils
-Title: What the Package Does (One Line, Title Case)
+Title: Múltiples codigueras para el flujo de trabajo diario del Observatorio Productivo y la Unidad de Evaluación y Monitoreo de la Secretaría de Transformación Productiva y Competitividad.
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "First",
-           family = "Last",
-           role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = structure("YOUR-ORCID-ID", .Names = "ORCID"))
-Description: What the package does (one paragraph).
+Authors@R: c(
+    person("Mateo", "Barletta", email = "mbarletta@transformauruguay.gub.uy", role = c("aut")),
+    person("Virginia", "Burguete", email = "vburguete@transformauruguay.gub.uy", role = c("aut")),
+    person("Paula", "Pereda", email = "ppereda@transformauruguay.gub.uy",  role = c("aut","cre")))
+Description: Paquete para cargar codigueras, contiene codigueras de
+     codiguera de actividad CIIU, codiguera de denominaciones de ocupaciones CIUO, 
+     codiguera de productos según Nomenclatura Común Mercosur - NCM, codiguera 
+     interna de grupos de productos clasif_tu, codiguera de equivalencia códigos de 
+     actividad BCU con códigos de Clasificación Industrial Internacional Uniforme 
+     Rev.3 y Rev.4 - cnbcu_ciius).
 License: What license it uses
 Encoding: UTF-8
 LazyData: true
