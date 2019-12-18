@@ -19,7 +19,7 @@
 pega_division <- function(df, variable) {
   
   df %>% 
-    left_join(codiguera_ciiu %>% distinct(clase, division, desc_division),
-              by = setNames("clase", variable))
+    dplyr::left_join(codiguera_ciiu %>% dplyr:: distinct(clase, division, desc_division),
+              by = stats::setNames("clase", variable))
   
 }

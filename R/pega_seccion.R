@@ -19,8 +19,8 @@
 pega_seccion <- function(df, variable) {
   
   df %>% 
-    left_join(codiguera_ciiu %>% distinct(clase, seccion, desc_seccion),
-              by = setNames("clase", variable))
+    dplyr::left_join(codiguera_ciiu %>% dplyr::distinct(clase, seccion, desc_seccion),
+              by = stats::setNames("clase", variable))
   
 }
 

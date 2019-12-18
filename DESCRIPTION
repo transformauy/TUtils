@@ -1,4 +1,5 @@
 Package: TUtils
+Type: Package
 Title: Múltiples codigueras para el flujo de trabajo diario del Observatorio Productivo y la Unidad de Evaluación y Monitoreo de la Secretaría de Transformación Productiva y Competitividad.
 Version: 0.0.0.9000
 Authors@R: c(
@@ -11,6 +12,5 @@ Description: Paquete para cargar codigueras, contiene codigueras de
      interna de grupos de productos clasif_tu, codiguera de equivalencia códigos de 
      actividad BCU con códigos de Clasificación Industrial Internacional Uniforme 
      Rev.3 y Rev.4 - cnbcu_ciius).
-License: What license it uses
-Encoding: UTF-8
+Encoding: UTF-8     
 LazyData: true
